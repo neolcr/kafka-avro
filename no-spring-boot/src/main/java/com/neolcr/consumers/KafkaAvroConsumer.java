@@ -1,12 +1,11 @@
 package com.neolcr.consumers;
 
-import com.neolcr.producers.User;
 import io.confluent.kafka.serializers.KafkaAvroDeserializer;
 import org.apache.kafka.clients.consumer.Consumer;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
-
+import com.neolcr.producers.User;
 import java.time.Duration;
 import java.util.Collection;
 import java.util.Collections;
