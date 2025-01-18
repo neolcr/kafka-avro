@@ -17,7 +17,7 @@ public class KafkaAvroProducer {
 
         User user = User.newBuilder()
                 .setId(1)
-                .setName("Alice")
+                .setName("Felipe")
                 .build();
 
         ProducerRecord<String, User> record = new ProducerRecord<>("sec-topic","key1", user);
